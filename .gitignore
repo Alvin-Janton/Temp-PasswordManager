@@ -1,0 +1,29 @@
+# ===== Maven build output =====
+target/
+
+# ===== Eclipse / IDE =====
+bin/
+.settings/
+.classpath
+.project
+
+# ===== OS junk =====
+.DS_Store
+Thumbs.db
+
+# ===== Secrets / local configs =====
+.env
+.backupConfigs
+
+# ===== Password manager data (vaults/backups) =====
+*.txt
+*.txt*
+*.vault
+*.backup
+*.conf
+*.lastbackup
+
+# ===== Logs / temp =====
+logs/
+*.log
+*.tmp
